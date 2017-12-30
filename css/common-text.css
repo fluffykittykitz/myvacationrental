@@ -1,0 +1,52 @@
+body{
+	
+font-family: Arial, Helvetica, sans-serif;	
+color: #ffffff;
+font-size: 14px;
+}
+
+a{
+	font-family: raleway-lightitalic;  
+	color: #ff9900;
+	text-decoration: underline;
+}
+	a:hover{
+		text-decoration: none;
+	}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: varelaround-regular;
+	color:#000000;
+}
+
+ul{
+	font-family: Helvetica ;
+	color: #999999;
+	margin:5px;
+	padding: 10px;
+}
+
+ol{
+	font-family: Helvetica ;
+	color: #999999;
+	list-style-type: disc;
+	margin:5px;
+	padding: 10px;
+}
+
+.btn{
+	background-color: #ff9900;
+	color: #ffffff;
+	border-radius: 5px;
+
+}
+	.btn:hover{
+		background-color: #ffffff;
+		color: #ff9900;
+		border-radius: 10px;
+	}
+
+p{
+	font-family: Helvetica;
+	color: #999999;
+}

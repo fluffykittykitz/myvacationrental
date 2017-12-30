@@ -1,0 +1,115 @@
+h1{
+	font-size: 14px;
+}
+
+header .hgroup{
+	text-align: right;
+	padding: 5px;
+}
+
+.upper{
+	height: 50%;
+}
+	.upper .clearfix:after {
+   		content: " "; 
+   		visibility: hidden;
+   		display: block;
+   		height: 0;
+   		clear: both;
+	}
+	.left-pane{
+		width: 30%;
+		display: inline-block;
+		background-color: #dc3c30;
+	}
+
+		nav a{
+		display: block;
+		background-color: #dc3c30;
+		color: #ffffff;
+		font-size: 18px;
+		padding: 30px 10px;
+		text-align: right;
+		text-decoration: none;
+		
+		}
+
+		nav a:hover{
+			background-color: #ffffff;
+			color:#dc3c30; 
+			text-decoration: none;
+			cursor: pointer;
+		}
+
+	.right-pane{
+		width: 70%;
+		vertical-align: top;
+		float: right;
+	}
+		.right-pane ul{
+			margin: 0;
+			height: 500px;
+		}
+		.banner li img{
+			width: 100%;
+		}
+
+.bottom{
+	height: 50%;
+	display: inline-block;
+}
+	.features{
+		margin: 0;
+		padding: 0;
+	}
+	.features li{
+		width: 25%;
+		display: inline-block;
+		float: left;
+	}
+
+	.features li p{
+		margin: 14px 10px;
+	}
+
+	.features li img{
+		margin: 5px 10px;
+	}
+	.gallery .sub-gallery li{
+	 	width: 150px;
+	 	margin: 0 5px;
+	 }
+
+	 .gallery .sub-gallery li img{
+	 	width: 150px;
+	 }
+
+footer{
+   bottom:0;
+   width:100%;
+}
+	.connect{
+		background-color: #dc3c30;
+		height: 50px;
+	}
+		.connect ul{
+			margin: 0;
+			padding: 0;
+		}
+		.connect ul li{
+			display: inline-block;
+			margin: 10px 5px;
+		}
+
+	.copyrights{
+		background-color: #1d2a3b;
+	}
+
+		.copyrights p{
+			display: inline-block;
+			margin: 5px;
+		}
+
+		.copyrights .design-by{
+			float: right;
+		}
